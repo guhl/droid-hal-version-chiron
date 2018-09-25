@@ -11,12 +11,12 @@
 %define have_vibrator_native 1
 %define have_led 1
 
-BuildRequires: droid-config-%{rpm_device}
-BuildRequires: droid-config-%{rpm_device}-bluez5
-BuildRequires: droid-config-%{rpm_device}-flashing
-BuildRequires: droid-config-%{rpm_device}-preinit-plugin
-BuildRequires: droid-config-%{rpm_device}-pulseaudio-settings
-BuildRequires: droid-config-%{rpm_device}-sailfish
+#BuildRequires: droid-config-%{rpm_device}
+#BuildRequires: droid-config-%{rpm_device}-bluez5
+#BuildRequires: droid-config-%{rpm_device}-flashing
+#BuildRequires: droid-config-%{rpm_device}-preinit-plugin
+#BuildRequires: droid-config-%{rpm_device}-pulseaudio-settings
+#BuildRequires: droid-config-%{rpm_device}-sailfish
 
 %include droid-hal-version/droid-hal-version.inc
 
